@@ -1,0 +1,208 @@
+/* ------------------- SETTINGS ------------------- */
+
+/* font-family: 'Expletus Sans', cursive;
+font-family: 'Rubik', sans-serif; */
+
+
+/* ------------------- GENERIC ------------------- */
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1, h2{
+   margin: 0;
+}
+
+
+/* ------------------- ELEMENTS ------------------- */
+
+body{
+    margin: 0;
+
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #2D2D2D;
+}
+
+a{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-decoration: none;
+
+    color: #2D2D2D;
+}
+
+a:hover{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-decoration: underline;
+
+    color: #FFFCFC;
+}
+
+h1{
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 125px;
+
+    color: #2D2D2D;
+
+}
+
+h2{
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+
+    color: #FFFFFF;
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+/* ------------------- COMPONENTS ------------------- */
+
+.conteneur{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header-principal{
+    background: #FF9800;
+}
+
+.header-principal ul{
+    margin: 0;
+    padding: 20px 0;
+    min-height: 61px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-principal li{
+    margin: 0 10px;
+}
+
+/* HERO */
+
+.hero{
+    background: #FFC107;
+    min-height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    padding: 88px 0;
+}
+
+/* INFORMATION */
+
+.information{
+    padding: 30px 0;
+}
+
+.information .conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte{
+    width: 31%;
+    background: #F0F0F0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.carte header{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.carte:nth-child(1) header{
+    background: #E34E26;
+}
+
+.carte:nth-child(2) header{
+    background: #0270BB;
+}
+
+.carte:nth-child(3) header{
+    background: #F8DC3D;
+}
+
+.conteneur .content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+.conteneur .content span{
+    float: right;
+    color: #E64A19;
+}
+
+.bouton{
+    padding: 10px;
+    background: #FFC107;
+
+    border: 1px solid #E64A19;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+}
+
+.bouton:hover{
+    background: #E64A19;
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+.footer-principal{
+    background: #E64A19;
+    color: #FFFFFF;
+
+    margin: 0;
+    padding: 21px 0;
+}
+
+
+/* ------------------- UTILITIES ------------------- */
